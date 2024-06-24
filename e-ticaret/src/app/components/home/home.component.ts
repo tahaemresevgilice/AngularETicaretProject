@@ -1,7 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, model, OnInit } from '@angular/core';
 import { ProductModel } from '../../models/products.model';
 import { HttpClient } from '@angular/common/http';
-import { subscribe } from 'diagnostics_channel';
+import { BasketService } from '../../services/basket.service';
 
 @Component({
   selector: 'app-home',
@@ -9,7 +9,7 @@ import { subscribe } from 'diagnostics_channel';
   styleUrl: './home.component.css'
 })
 export class HomeComponent implements OnInit{
-  constructor(private http:HttpClient) {}
+  constructor(private http:HttpClient,private basket:BasketService) {}
   api:string ='http://localhost:3000/'
   product: ProductModel = new ProductModel();
   products: ProductModel[] = []
@@ -32,4 +32,19 @@ export class HomeComponent implements OnInit{
   })
   this.product = new ProductModel();
  }
+ sepeteEkle(model:ProductModel){
+  this.http.post<any>(this.api + "basket", model).subscribe({
+    next: ()=> {
+      console.log("Ürün Sepete Eklendi")
+      this.getBaskets();
+    },
+    error: (err)=> console.log(err)
+  })
+ }
+ getBaskets() {
+    this.http.get<any>(this.api+"basket").subscribe({
+      next: (res)=> this.basket.baskets = res,
+      error: (err)=> console.log(err)
+    })
+  }
 }

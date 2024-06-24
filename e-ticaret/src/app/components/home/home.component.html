@@ -7,7 +7,10 @@
       <img class="card-img-top" [src]="product.urunResmi" alt="Card image cap">
       <div class="card-body">
         <h5 class="card-title">{{product.urunAdi}}</h5>
-        <button class="btn btn-warning w-100 mt-2"><i class="fa-solid fa-basket-shopping"></i> Sepete Ekle</button>
+        <button class="btn btn-warning w-100 mt-2" (click)="sepeteEkle(product)">
+          <i class="fa-solid fa-basket-shopping"></i>
+          Sepete Ekle
+        </button>
       </div>
     </div>
   </div>

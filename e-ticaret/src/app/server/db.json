@@ -1,10 +1,51 @@
 {
   "products": [
     {
-      "id": "e87b",
-      "urunAdi": "Araba",
-      "urunResmi": "https://images.unsplash.com/photo-1718465350900-096470ddbef7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyNnx8fGVufDB8fHx8fA%3D%3D"
+      "id": "5514",
+      "urunAdi": "Elma",
+      "urunResmi": "https://images.unsplash.com/photo-1570913149827-d2ac84ab3f9a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXBwbGV8ZW58MHx8MHx8fDA%3D"
+    },
+    {
+      "id": "01fe",
+      "urunAdi": "Armut",
+      "urunResmi": "https://media.istockphoto.com/id/1273779849/photo/fresh-organic-pears-on-an-old-wooden-background.webp?b=1&s=170667a&w=0&k=20&c=W-BKd3KIZKq6FWCyXsbiZ7hQqFVSvUWCoKZSIaTR3Jg="
+    },
+    {
+      "id": "713b",
+      "urunAdi": "Portakal",
+      "urunResmi": "https://plus.unsplash.com/premium_photo-1663928246167-0fccb32f1325?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8b3JhbmdlfGVufDB8MHwwfHx8MA%3D%3D"
+    },
+    {
+      "id": "e127",
+      "urunAdi": "Muz",
+      "urunResmi": "https://images.unsplash.com/photo-1526364163643-89e30b8fcb70?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YmFuYW5hfGVufDB8MHwwfHx8MA%3D%3D"
     }
   ],
-  "basket": []
+  "basket": [
+    {
+      "id": "5514",
+      "urunAdi": "Elma",
+      "urunResmi": "https://images.unsplash.com/photo-1570913149827-d2ac84ab3f9a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXBwbGV8ZW58MHx8MHx8fDA%3D"
+    },
+    {
+      "id": "01fe",
+      "urunAdi": "Armut",
+      "urunResmi": "https://media.istockphoto.com/id/1273779849/photo/fresh-organic-pears-on-an-old-wooden-background.webp?b=1&s=170667a&w=0&k=20&c=W-BKd3KIZKq6FWCyXsbiZ7hQqFVSvUWCoKZSIaTR3Jg="
+    },
+    {
+      "id": "713b",
+      "urunAdi": "Portakal",
+      "urunResmi": "https://plus.unsplash.com/premium_photo-1663928246167-0fccb32f1325?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8b3JhbmdlfGVufDB8MHwwfHx8MA%3D%3D"
+    },
+    {
+      "id": "e127",
+      "urunAdi": "Muz",
+      "urunResmi": "https://images.unsplash.com/photo-1526364163643-89e30b8fcb70?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YmFuYW5hfGVufDB8MHwwfHx8MA%3D%3D"
+    },
+    {
+      "id": "5514",
+      "urunAdi": "Elma",
+      "urunResmi": "https://images.unsplash.com/photo-1570913149827-d2ac84ab3f9a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXBwbGV8ZW58MHx8MHx8fDA%3D"
+    }
+  ]
 }

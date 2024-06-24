@@ -7,12 +7,14 @@ import { LayoutsComponent } from './components/layouts/layouts.component';
 import { HomeComponent } from './components/home/home.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { BasketComponent } from './components/basket/basket.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LayoutsComponent,
-    HomeComponent
+    HomeComponent,
+    BasketComponent
   ],
   imports: [
     BrowserModule,
